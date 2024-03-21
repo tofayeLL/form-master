@@ -2,6 +2,7 @@
 
 import './App.css'
 import SimpleForm from './components/SimpleForm/SimpleForm'
+import StatefulForm from './components/StatefulForm/StatefulForm'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
      <h1 className="text-3xl font-bold bg-red-200">
       Input Form
     </h1>
-    <SimpleForm></SimpleForm>
+    {/* <SimpleForm></SimpleForm> */}
+    <StatefulForm></StatefulForm>
  
     
       
