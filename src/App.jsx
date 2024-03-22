@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import Grandpa from './components/Grandpa/Grandpa'
 import HookForm from './components/HookForm/HookForm'
 import RefForm from './components/RefForm/RefForm'
 import ReusableForm from './components/ReusableForm/ReusableForm'
@@ -49,6 +50,11 @@ function App() {
            <p> please update your profile here</p>
           </div>
         </ReusableForm>
+
+         <div >
+          <Grandpa ></Grandpa>
+
+         </div>
 
 
 
